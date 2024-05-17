@@ -12,10 +12,10 @@ class primer:
         else:
             print("Округление по правилам: ",c//a+1)
 
-    while True:
-        gel = input("Начать? да  нет")
-        if gel == "да" or gel == "Да" or gel =="ДА":
-            matem()
-        else:
-            print("До свидания")
-            break
+while True:
+    gel = input("Начать? да  нет")
+    if gel == "да" or gel == "Да" or gel =="ДА":
+        primer.matem()
+    else:
+        print("До свидания")
+        break
